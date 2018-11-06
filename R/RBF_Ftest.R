@@ -209,9 +209,9 @@ RBF_Ftest <- function(F.orig, df.orig, N.orig, F.rep, df.rep, N.rep,
 
     # Details of the replication study
     replicationStudy = list(
-      F = F.orig,
-      df = df.orig,
-      N = N.orig
+      F = F.rep,
+      df = df.rep,
+      N = N.rep
     )
   )
   class(ret.object) <- "ReplicationBF"
